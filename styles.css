@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: black;
     text-align: center;
 }
 
@@ -104,6 +104,6 @@ main {
 footer {
     padding: 0.5;
     margin: 0;
-    color: black;
+    color: white;
     background-color:  white;
 }
