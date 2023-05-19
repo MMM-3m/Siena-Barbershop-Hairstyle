@@ -1,4 +1,4 @@
-@media only all and (max-width: 768px) {
+@media only all and (max-width: 640px) {
     :root {
         --transition-duration: .3s;
         --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
@@ -8,7 +8,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: white;
+        background-color: black;
         text-align: center;
     }
     
@@ -113,7 +113,7 @@
     footer {
         padding: 0.5;
         margin: 0;
-        color: black;
-        background-color:  white;
+        color: white;
+        background-color:  black;
     }
 }
