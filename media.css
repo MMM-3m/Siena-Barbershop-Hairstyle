@@ -1,4 +1,4 @@
-@media only all and (max-width: 640px) {
+@media only all and (max-width: 460px;) {
     :root {
         --transition-duration: .3s;
         --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
