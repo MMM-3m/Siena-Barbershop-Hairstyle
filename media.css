@@ -99,7 +99,7 @@
     
     img {
         width: 320;
-        height: 560px
+        height: auto;
         border: 8px dotted #d4af37;
         border-radius: 0px;
     }
