@@ -71,14 +71,14 @@
         40%,
         60%,
         80% {
-            transform: translateX(20%);
+            transform: translateX(5px);
         }
         10%,
         30%,
         50%,
         70%,
         90% {
-            transform: translateX(-20%);
+            transform: translateX(-5px);
         }
         from,
         to {
