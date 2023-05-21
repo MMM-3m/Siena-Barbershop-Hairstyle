@@ -53,12 +53,7 @@
     }
     
     main {
-        animation: slide-up var
-        (--animation-duration) var(--transition-easing);
-        will-change: transform;
-        animation: shake;
-        animation-duration: 200.0s;
-        transition-duration: .1s;
+        animation: slide-up var(--animation-duration) var(--transition-easing)
         will-change: transform;
     }
     
@@ -78,14 +73,14 @@
         40%,
         60%,
         80% {
-            transform: translateX(10%);
+            transform: translateX(5%);
         }
         10%,
         30%,
         50%,
         70%,
         90% {
-            transform: translateX(-10%);
+            transform: translateX(-5%);
         }
         from,
         to {
