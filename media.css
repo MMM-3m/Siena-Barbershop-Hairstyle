@@ -49,10 +49,15 @@
     border: 8px dotted #d4af37;
     animation: shake;
     animation-duration: 200.0s;
-    transition-duration: .1s;
+    transition-duration: 1.s;
     will-change: transform;
     border-radius: 5px;
     }
+    .main {
+    animation: shake;
+    animation-duration: 200.0s;
+    transition-duration: 2.s;
+    will-change: transform;   
     
     @keyframes slide-up {
         from {
