@@ -19,13 +19,13 @@
     }
     
     h1 {
-        font-size: 2em;
+        font-size: 3em;
         padding-top: 0.25;
         width: 75%;
     }
     
     h2 {
-        font-size: 1em;
+        font-size: 2em;
         padding-top: 0.25;
         width: 85%;
     }
@@ -47,7 +47,7 @@
         background-color: black;
         border: 8px dotted #d4af37;
         animation: shake;
-        animation-duration: 100.0s;
+        animation-duration: 200.0s;
         transition-duration: .05s;
         will-change: transform;
     }
@@ -57,7 +57,7 @@
         (--animation-duration) var(--transition-easing);
         will-change: transform;
         animation: shake;
-        animation-duration: 95.0s;
+        animation-duration: 200.0s;
         transition-duration: .1s;
         will-change: transform;
     }
