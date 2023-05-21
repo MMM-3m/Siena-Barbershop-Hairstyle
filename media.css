@@ -48,12 +48,16 @@
         border: 8px dotted #d4af37;
         animation: shake;
         animation-duration: 200.0s;
-        transition-duration: .05s;
+        transition-duration: .03s;
         will-change: transform;
     }
     
     main {
         animation: slide-up var(--animation-duration) var(--transition-easing)
+        will-change: transform;
+        animation: shake;
+        animation-duration: 200.0s;
+        transition-duration: .05s;
         will-change: transform;
     }
     
