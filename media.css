@@ -47,7 +47,6 @@
     color: white;
     background-color: black;
     border: 8px dotted #d4af37;
-    animation: slide-up; 
     animation: shake;
     animation-duration: 200.0s;
     transition-duration: .1s;
