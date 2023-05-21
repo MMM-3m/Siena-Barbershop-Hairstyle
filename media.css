@@ -29,6 +29,7 @@
         padding-top: 0.25;
         width: 85%;
     }
+    
     h1, h2 {
         color: black;
         text-align: center;
@@ -39,22 +40,19 @@
     }
     
     button {
-        padding-top: 0.25em;
-        padding-bottom: 0.25em;
-        font-weight: bold;
-        font-size: 1em;
-        color: white;
-        background-color: black;
-        border: 8px dotted #d4af37;
-        animation: shake;
-        animation-duration: 200.0s;
-        transition-duration: .02s;
-        will-change: transform;
-    }
-    
-    main {
-        animation: slide-up var(--animation-duration) var(--transition-easing)
-        will-change: transform;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    background-color: black;
+    border: 8px dotted #d4af37;
+    animation: slide-up; 
+    animation: shake;
+    animation-duration: 200.0s;
+    transition-duration: .1s;
+    will-change: transform;
+    border-radius: 5px;
     }
     
     @keyframes slide-up {
