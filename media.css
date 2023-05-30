@@ -79,7 +79,7 @@
         50%,
         70%,
         90% {
-            transform: translateX(-10px);
+            transform: translateX(-5px);
         }
         from,
         to {
