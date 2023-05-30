@@ -1,7 +1,7 @@
 :root {
     --transition-duration: .3s;
     --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
-    --animation-duration: 1.0s ;
+    --animation-duration: .4s ;
 }
 body {
     display: flex;
@@ -48,7 +48,7 @@ button {
     animation: slide-up; 
     animation: shake;
     animation-duration: 200.0s;
-    transition-duration: .1s;
+    transition-duration: 100ms;
     will-change: transform;
     border-radius: 5px;
 }
