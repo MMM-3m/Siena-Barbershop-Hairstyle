@@ -2,7 +2,6 @@
     :root {
         --transition-duration: .3s;
         --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
-        --animation-duration: 1.0s ;
     }
     body {
         display: flex;
@@ -22,7 +21,7 @@
     h1 {
         font-size: 2em;
         padding-left: 0;
-        color:#d4af37;
+        color:#ffe420;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-shadow: 4px 4px 6px #FFDB51;
@@ -33,7 +32,7 @@
     h2 {
         font-size: 2em;
         padding: 0.5, 0, 0, 0.5;
-        color: #d4af37;
+        color: #ffe420;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-shadow: 4px 4px 6px #FFDB51;
@@ -47,7 +46,7 @@
     font-size: 1em;
     color: white;
     background-color: black;
-    border: 8px dotted #d4af37;
+    border: 7px dotted #ffe420;
     animation: shake;
     animation-duration: 4s;
     animation-iteration-count: infinate;
