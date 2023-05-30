@@ -21,21 +21,21 @@
     h1 {
         font-size: 2em;
         padding-left: 0;
-        color:#ffe420;
+        color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 4px 4px 6px #FFDB51;
+        text-shadow: 4px 4px 6px #ffe420;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
     
     h2 {
-        font-size: 2em;
+        font-size: 1.75em;
         padding: 0.5, 0, 0, 0.5;
-        color: #ffe420;
+        color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 4px 4px 6px #FFDB51;
+        text-shadow: 4px 4px 6px #ffe420;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
@@ -49,10 +49,8 @@
     border: 7px dotted #ffe420;
     animation: shake;
     animation-duration: 4s;
-    animation-iteration-count: infinate;
     animation-direction: alternate-reverse;
     will-change: transform;
-    border-radius: 5px;
     }
 
     @keyframes slide-up {
@@ -87,13 +85,13 @@
     }
     
     button:hover {
-        background-color: #d4af37;
+        background-color: #ffe420;
     }
     
     img {
         width: 320;
         height: auto;
-        border: 8px dotted #d4af37;
+        border: 8px dotted #ffe420;
         border-radius: 0px;
     }
 
