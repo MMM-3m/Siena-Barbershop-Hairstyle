@@ -22,7 +22,7 @@
     h1 {
         font-size: 2em;
         padding-left: 0;
-        color: #d4af37;
+        color:#d4af37;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-shadow: 4px 4px 6px #FFDB51;
@@ -31,9 +31,9 @@
     }
     
     h2 {
-        font-size: 1.5em;
+        font-size: 1.75em;
         padding: 0.5, 0, 0, 0.5;
-        color: black;
+        color: #d4af37;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-shadow: 4px 4px 6px #FFDB51;
@@ -49,7 +49,7 @@
     background-color: black;
     border: 8px dotted #d4af37;
     animation: shake;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: infinate;
     animation-direction: alternate-reverse;
     will-change: transform;
