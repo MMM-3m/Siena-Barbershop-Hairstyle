@@ -45,8 +45,9 @@ button {
     background-color: black;
     border: 8px dotted #d4af37;
     animation: shake ;
-    animation-duration: 4s;
+    animation-duration: 2s;
     animation-direction: alternate-reverse;
+    animation-iteration-count: 5;
     will-change: transform;   
 }
 
