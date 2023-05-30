@@ -21,14 +21,17 @@
     h1 {
         font-size: 2em;
         padding-left: 0;
+        color: black;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow: 4px 4px 6px #FFDB51;
+        animation: slide-up var(--animation-duration) var(--transition-easing);
+        will-change: transform;
     }
     
     h2 {
         font-size: 1em;
         padding: 0.5, 0, 0, 0.5;
-    }
-    
-    h1, h2 {
         color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -46,8 +49,7 @@
     background-color: black;
     border: 8px dotted #d4af37;
     animation: shake;
-    animation-duration: 4s;
-    transition-duration: 2s;
+    animation-duration: 2s;
     animation-iteration-count: infinate;
     animation-direction: alternate-reverse;
     will-change: transform;
