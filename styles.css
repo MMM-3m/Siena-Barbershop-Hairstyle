@@ -46,10 +46,10 @@ button {
     background-color: black;
     border: 8px dotted #d4af37;
     animation: slide-up; 
-    animation: shake 1.0s; 
-    animation-interation-count: infinate;
-    will-change: transform;
-    border-radius: 5px;
+    animation: shake ;
+    animation-duration: 4s;
+    animation-direction: alternate-reverse;
+    will-change: transform;   
 }
 
 @keyframes slide-up {
