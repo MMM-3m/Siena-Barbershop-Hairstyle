@@ -25,7 +25,7 @@
         color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 5px 5px 7px #ffe420;
+        text-shadow: 5px 5px 7px #FFD851;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
@@ -36,7 +36,7 @@
         color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 5px 5px 7px #ffe420;
+        text-shadow: 5px 5px 7px #FFD851;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
@@ -47,7 +47,7 @@
     font-size: 1em;
     color: #ffe420;   
     background-color: black;
-    border: 7px dotted #ffe420;
+    border: 7px dotted #d49f37;
     animation: shake;
     animation-duration: 4s;
     animation-direction: alternate-reverse;
@@ -93,7 +93,7 @@
     img {
         width: 320;
         height: auto;
-        border: 8px dotted #ffe420;
+        border: 8px dotted #d49f37;
         border-radius: 0px;
     }
 
