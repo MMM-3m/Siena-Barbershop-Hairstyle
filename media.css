@@ -44,16 +44,16 @@
     }
     
     button {
-    padding: 0.5, 0, 0, 0.5;
-    font-weight: bold;
-    font-size: 1em;
-    color: white;   
-    background-color: black;
-    border: 7px dotted #d49f37;
-    animation: shake;
-    animation-duration: 4s;
-    animation-direction: alternate-reverse;
-    will-change: transform;
+        padding: 0.5, 0, 0, 0.5;
+        font-weight: bold;
+        font-size: 1em;
+        color: white;   
+        background-color: black;
+        border: 7px dotted #FFD851;
+        animation: shake;
+        animation-duration: 4s;
+        animation-direction: alternate-reverse;
+        will-change: transform;
     }
 
     @keyframes slide-up {
@@ -89,13 +89,13 @@
     
     button:hover {
         color: black:
-        background-color: #ffe420;
+        background-color: #FFD851;
     }
     
     img {
         width: 320;
         height: auto;
-        border: 8px dotted #d49f37;
+        border: 8px dotted #FFD851;
         border-radius: 0px;
     }
 
