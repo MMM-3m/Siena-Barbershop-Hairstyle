@@ -20,23 +20,23 @@
     }
     
     h1 {
-        font-size: 2em;
+        font-size: 3em;
         padding-left: 0;
         color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 5px 5px 7px #FFD851;
+        text-shadow: 4px 4px 6px #FFD851;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
     
     h2 {
-        font-size: 1em;
+        font-size: 2em;
         padding: 0.5, 0, 0, 0.5;
         color: black;
         text-align: center;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        text-shadow: 5px 5px 7px #FFD851;
+        text-shadow: 4px 4px 6px #FFD851;
         animation: slide-up var(--animation-duration) var(--transition-easing);
         will-change: transform;
     }
