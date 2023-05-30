@@ -1,8 +1,9 @@
 @media only all and (max-width: 768px) {
     :root {
-        --transition-duration: .3s;
+        animation-name: slide-up;
+        --transition-duration: 1s;
         --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
-        --animation-duration: 1s;
+        
     }
     
     body {
