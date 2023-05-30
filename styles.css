@@ -1,7 +1,9 @@
 :root {
-    --transition-duration: .3s;
+    animation-name: slide-up;
+    --transition-duration: 1s;
     --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
 }
+
 body {
     display: flex;
     justify-content: center;
@@ -83,6 +85,7 @@ button {
 }
 
 button:hover {
+    color: black;
     background-color: #d4af37;
 }
 
