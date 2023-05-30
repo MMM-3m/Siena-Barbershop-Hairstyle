@@ -44,7 +44,6 @@ button {
     color: white;
     background-color: black;
     border: 8px dotted #d4af37;
-    animation: slide-up; 
     animation: shake ;
     animation-duration: 4s;
     animation-direction: alternate-reverse;
@@ -74,7 +73,7 @@ button {
     50%,
     70%,
     90% {
-        transform: translateX(25px);
+        transform: translateX(-25px);
     }
     from,
     to {
