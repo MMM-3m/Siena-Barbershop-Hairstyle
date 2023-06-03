@@ -50,7 +50,17 @@ button {
     animation-duration: 2s;
     animation-direction: alternate-reverse;
     animation-iteration-count: 5;
-    will-change: transform;   
+    will-change: transform;  
+    
+    &:hover {
+      color: black;
+      background-color: #d4af37;
+      transform: scale(1.1);
+    }
+    
+    &:active {
+      transform: translteY(10%);
+    }
 }
 
 @keyframes slide-up {
@@ -84,10 +94,6 @@ button {
     }
 }
 
-button:hover {
-    color: black;
-    background-color: #d4af37;
-}
 
 img {
     max-width: 100%;
