@@ -55,6 +55,16 @@
         animation-duration: 4s;
         animation-direction: alternate-reverse;
         will-change: transform;
+        
+        &:hover {
+          color: black;
+          background-color: #d4af37;
+          transform: scale(1.1);
+        }
+    
+        &:active {
+          transform: translteY(10%);
+        }
     }
 
     @keyframes slide-up {
