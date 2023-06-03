@@ -50,7 +50,9 @@ button {
     animation-duration: 2s;
     animation-direction: alternate-reverse;
     animation-iteration-count: 5;
-    will-change: transform;  
+    will-change: transform;
+    transition-propery: transform;
+    transition-duration: 0.3s;
     
     &:hover {
       color: black;
