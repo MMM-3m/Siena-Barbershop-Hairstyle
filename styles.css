@@ -30,7 +30,6 @@ h1 {
     animation-duration: 1s;
     will-change: transform; 
 }
-}
 
 h2 {
     font-size: 3em;
@@ -68,7 +67,7 @@ button {
     }
     
     &:active {
-      transform: translteY(10%);
+      transform: translateY(10%);
     }
 }
 
