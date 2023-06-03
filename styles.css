@@ -1,7 +1,7 @@
 :root {
-    --animation-name: slide-up;
     --transition-duration: 1s;
     --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
+    --animation-duration: 0.3s;
 }
 
 body {
@@ -54,7 +54,7 @@ button {
     background-color: black;
     border: 8px dotted #d4af37;
     animation: shake ;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-direction: alternate-reverse;
     animation-iteration-count: 5;
     will-change: transform;
@@ -88,14 +88,14 @@ button {
     40%,
     60%,
     80% {
-        transform: translateX(25px);
+        transform: translateX(10px);
     }
     10%,
     30%,
     50%,
     70%,
     90% {
-        transform: translateX(-25px);
+        transform: translateX(-10px);
     }
     from,
     to {
