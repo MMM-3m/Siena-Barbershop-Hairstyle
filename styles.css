@@ -25,7 +25,6 @@ h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 6px #FFDB51;
-    border-radius: 5px; 
     animation: slide-up var(--animation-duration) var(--transition-easing);    
     animation-duration: 1s;
     will-change: transform; 
@@ -38,7 +37,6 @@ h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 6px #FFDB51;
-    border-radius: 5px; 
     animation: slide-up var(--animation-duration) var(--transition-easing);    
     animation-duration: 1s;
     will-change: transform; 
@@ -101,7 +99,6 @@ button {
         transform: none;
     }
 }
-
 
 img {
     max-width: 100%;
