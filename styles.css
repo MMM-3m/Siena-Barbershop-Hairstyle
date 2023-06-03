@@ -21,21 +21,26 @@ body {
 h1 {
     font-size: 5em;
     padding-top: 0.25em;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 6px #FFDB51;
+    border-radius: 5px; 
+    animation: slide-up var(--animation-duration) var(--transition-easing);    
+    animation-duration: 1s;
+    will-change: transform; 
+}
 }
 
 h2 {
     font-size: 3em;
     padding-top: 0.25em;
-}
-
-h1, h2 {
     color: black;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 4px 4px 6px #FFDB51;
-    animation: slide-up var(--animation-duration) var(--transition-easing);
-    will-change: transform;
-    border-radius: 5px;      
+    border-radius: 5px; 
+    animation: slide-up var(--animation-duration) var(--transition-easing);    
     animation-duration: 1s;
     will-change: transform; 
 }
