@@ -55,7 +55,9 @@
         animation-duration: 4s;
         animation-direction: alternate-reverse;
         will-change: transform;
-        
+        transition-propery: transform;
+        transition-duration: 0.3s;
+      
         &:hover {
           color: black;
           background-color: #d4af37;
