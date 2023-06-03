@@ -65,7 +65,7 @@
         }
     
         &:active {
-          transform: translateY(20%);
+          transform: translateY(10%);
         }
     }
 
