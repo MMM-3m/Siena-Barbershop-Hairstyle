@@ -107,7 +107,7 @@ img {
     border: 8px dotted #d4af37;
     border-radius: 0px;
     animation: slide-up var(--animation-duration) var(--transition-easing);
-    animation-timing-fuction: ease-in-out;
+    animation-duration: 1s;
     will-change: transform;
     border-radius: 5px;
 }
