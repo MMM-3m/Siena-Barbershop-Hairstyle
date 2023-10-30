@@ -59,7 +59,7 @@
         transition-propery: transform;
         transition-duration: 0.3s;
       
-        &:hover {
+          &:hover, &:focus {
           color: black;
           background-color: #d4af37;
           transform: scale(1.1);
