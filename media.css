@@ -1,5 +1,5 @@
-@media (min-width: 320px) {
-    :root {
+@media only all and (max-width: 1024px)    
+:root {
        --transition-duration: 1s;
        --transition-easing: cubic-bezier(0.5, 0, 0.5, 1);
        --animation-duration: 0.3s;
