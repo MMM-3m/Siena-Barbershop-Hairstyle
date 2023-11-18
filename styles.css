@@ -51,6 +51,7 @@ button {
     color: white;
     background-color: black;
     border: 8px dotted #d4af37;
+    text-transform: uppercase;
     animation: shake ;
     animation-duration: 4s;
     animation-direction: alternate-reverse;
