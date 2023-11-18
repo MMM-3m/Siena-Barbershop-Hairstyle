@@ -52,9 +52,8 @@
         color: white;   
         background-color: black;
         border: 5px dotted #FFD851;
-        text-transform: uppercase;
         animation: shake;
-        animation-duration: 4s;
+        animation-duration: 6s;
         animation-direction: alternate-reverse;
         will-change: transform;
         transition-propery: transform;
