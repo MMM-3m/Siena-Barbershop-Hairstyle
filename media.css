@@ -53,7 +53,7 @@
         background-color: black;
         border: 5px dotted #FFD851;
         animation: shake;
-        animation-duration: 10s;
+        animation-duration: 5s;
         animation-direction: alternate-reverse;
         will-change: transform;
         transition-propery: transform;
